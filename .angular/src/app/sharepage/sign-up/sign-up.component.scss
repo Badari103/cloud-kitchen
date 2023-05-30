@@ -1,0 +1,17 @@
+$color_1: #61ea05;
+$color_2: black;
+$color_3: white;
+$background-color_1: #000000;
+.banner
+{
+    background-image: url('../../../assets/img/reg.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+.btn{
+    background-color: $color_1;
+    font-family: 'Raleway', sans-serif;
+}
+.tit{
+    font-family: 'Open Sans', sans-serif;
+}

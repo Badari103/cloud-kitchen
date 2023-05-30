@@ -1,0 +1,109 @@
+{
+  "foodDetails" : [
+    {
+      "id": 1,
+      "foodName": "Chapati",
+      "foodDetails": "Chapatis are one of the most common forms of wheat bread, a staple food in the Indian subcontinent",
+      "foodPrice": 100,
+      "foodImg": "https://media.istockphoto.com/id/516359240/photo/bhendi-masala-or-bhindi-masala-ladies-finger-curry-with-chapati.jpg?s=612x612&w=0&k=20&c=0mGnvNM2lxl-dTTJlhAfVJE5WidxYmmvrvNs1NZUKvs="
+    },
+    {
+      "id": 2,
+      "foodName": "Dosa",
+      "foodDetails": "Dosa - a thin and crispy crepe made from rice and urad dal, served with Coconut Chutney and Vegetable Sambar!",
+      "foodPrice": 120,
+      "foodImg": "https://media.istockphoto.com/id/1364757902/photo/crispy-crepes-made-of-barnyard-millets-and-lentils-commonly-known-as-barnyard-millet-ghee.jpg?s=612x612&w=0&k=20&c=OujKblDoHPThj7fcxLL1FBfzRNlHK6ZwNYVXnqDhDBU="
+    },
+    {
+      "id": 3,
+      "foodName": "Meals",
+      "foodDetails": "The staple foods are rice, wheat, and lentils, and spices are essential for adding flavor and taste in the Indian subcontinent",
+      "foodPrice": 150,
+      "foodImg": "https://glimageurl.golocall.com/golocal-post/image/168663_lakshmicatering_fusionchennai1507876304.jpeg"
+    },
+    {
+      "id": 10,
+      "foodName": "Grill Chicken",
+      "foodDetails": " Best source for Protein Supply Grilled chicken is an excellent source of lean protein making it the best choice for people who hits the gym regularly.",
+      "foodPrice": 299,
+      "foodImg": "https://th.bing.com/th/id/R.faead6bb305713dea43b46a5d70367dc?rik=nATpccg9J9rNOQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-YIO-svIpiH0%2fTW7ugyFWLDI%2fAAAAAAAAGls%2foTXmdUlkQQo%2fs1600%2fchicken%2bdrumsticks.jpg&ehk=nDBeLEQRD09GmhWweT0lDAyFl4ziKsxYS4y7Cg3%2frSs%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 11,
+      "foodName": "Mutton Biryani",
+      "foodDetails": "Indian spices, rice, and usually some type of meat with spices, or in some cases without any meat, and sometimes, in addition, eggs and potatoes.",
+      "foodPrice": 349,
+      "foodImg": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg"
+    },
+    {
+      "id": 12,
+      "foodName": "Southern Fish Fry",
+      "foodDetails": "A simple vegetable salad or sliced onion compliment the fish fry. It can be served as a side with any variety rice like Ghee rice, cumin or Jeera rice, simple coconut rice.",
+      "foodPrice": 199,
+      "foodImg": "https://th.bing.com/th/id/OIP.R0RutM_rAuLfQ2GqBp32XwHaE7?pid=ImgDet&w=161&h=107&c=7&dpr=1.5"
+    },
+    {
+      "id": 7,
+      "foodName": "Veg Masala Roll In Naan",
+      "foodDetails": "A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
+      "foodPrice": 140,
+      "foodImg": "https://images.squarespace-cdn.com/content/v1/5aac28d0e2ccd1747b5760ef/1562544243144-HWHIS4R22EBR1NC2JBJM/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/buffalo-chicpea-wrap-25.jpg"
+    },
+    {
+      "id": 8,
+      "foodName": "Indulgence Brownie",
+      "foodDetails": "(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate .",
+      "foodPrice": 105,
+      "foodImg": "https://th.bing.com/th/id/R.84a77a98f91af4e294cf000acd22f0e5?rik=8RP75VjsbD5qwQ&riu=http%3a%2f%2fwww.agonyofdewheat.com%2fwp-content%2fuploads%2f2016%2f10%2fDSC_3060-675x450.jpg&ehk=bcIxWNsZDYQ8BRfoagppuhCyVZXaItMgEWLmXKv67Mk%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 9,
+      "foodName": "Oreo Cheesecake Ice Cream",
+      "foodDetails": "Oreo ice cream Beat cream in a chilled glass or metal bowl with an electric mixer until stiff peaks form.",
+      "foodPrice": 219,
+      "foodImg": "https://i.pinimg.com/474x/3f/2a/bf/3f2abfcff6e5b6ce3128b7280f4f6cc8--icecream-dubai.jpg"
+    },
+    {
+      "id": 4,
+      "foodName": "Paneer Grilled Sandwich",
+      "foodDetails": "Pan-fried masala paneer.",
+      "foodPrice": 200,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+    },
+    {
+      "id": 5,
+      "foodName": "Veggie Supreme",
+      "foodDetails": "Onion| Green Capsicum|Mushroom",
+      "foodPrice": 369,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k"
+    },
+    {
+      "id": 6,
+      "foodName": "Paneer Burger",
+      "foodDetails": "panner",
+      "foodPrice": 149,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k"
+    },
+    {
+      "id": 13,
+      "foodName": "Curry",
+      "foodDetails": "Curry is one of India's most popular and well-known dishes. Tomato-based curries are known as the ultimate comfort food in India, and countries all over the world have adopted this opinion too.",
+      "foodPrice": 160,
+      "foodImg": "https://www.littleindiaofdenver.com/wp-content/uploads/2019/02/The-Most-Popular-Indian-Dishes.jpg"
+    },
+    {
+      "id": 14,
+      "foodName": "Hyderabadi Biryani",
+      "foodDetails": "The authentic style of cooking Hyderabadi Biryani is slowly cooking it over Dum. It gets its taste as it cooks in its own juices in the aromatic steam along with authentic Hyderabadi spices.",
+      "foodPrice": 199,
+      "foodImg": "https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg"
+    },
+    {
+      "id": 15,
+      "foodName": "Stuffed Lobster",
+      "foodDetails": "Lobster meat is a great source of protein, proving 28 grams of protein per cup. Lobsters are a great source of heart-healthy omega-3 fatty acids.Three and a half ounces only have 96 calories and about two grams fat.",
+      "foodPrice": 249,
+      "foodImg": "https://im.rediff.com/getahead/2019/feb/08food9.jpg"
+    }
+  ]
+}

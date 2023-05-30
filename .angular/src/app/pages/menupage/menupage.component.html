@@ -1,0 +1,15 @@
+<div class="container mt-5 mb-5">
+    <div class="row" *ngFor="let e of menuData">
+        <div class="col-lg-6">
+            <a routerLink="../../menu" class="btn mb-3 ">Back</a>
+            <img src={{e.foodImg}} width="100%" />
+        </div>
+        <div class="col-lg-6 col-12">
+            <h1>Food Details</h1>
+            <h2 class="mt-4">{{e.foodName}}</h2>
+            <p class="mt-4">{{e.foodDetails}}</p>
+            <p>{{e.foodPrice | currency :'INR'}}</p>
+            <button class="btn" (click)="addtoCart(e)">Add to Cart</button>
+        </div>
+    </div>
+</div>

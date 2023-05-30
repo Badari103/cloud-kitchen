@@ -1,0 +1,80 @@
+<div class="payment">
+    <mat-card id="card-method">
+        <h2>Choose payment method below</h2>
+        <form>
+            <mat-button-toggle-group appearence="legacy" name="method" [(ngModel)]="method" (click)="onClick()">
+                <mat-button-toggle value="paytm">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Paytm_Logo_%28standalone%29.svg/2560px-Paytm_Logo_%28standalone%29.svg.png">
+                </mat-button-toggle>
+
+                <mat-button-toggle value="bhim">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/1280px-UPI-Logo-vector.svg.png">
+                </mat-button-toggle>
+            </mat-button-toggle-group>
+        </form>
+    </mat-card>
+
+    <div class="pay-details">
+        <mat-card id="card">
+            <mat-card-title>Billing Info</mat-card-title>
+            <form #bill="ngForm">
+                <mat-form-field appearance="outline">
+                    <mat-label>First Name</mat-label>
+                    <input matInput name="fName" [(ngModel)]="fName">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput name="lName" [(ngModel)]="lName">
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="outline">
+                    <mat-label>Address</mat-label>
+                    <input matInput name="Addr" [(ngModel)]="Addr">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Phone</mat-label>
+                    <input matInput name="phone" [(ngModel)]="phone" pattern="^\+91\s[6-9]{1}[0-9]{9}$"
+                        (keypress)="numericOnly($event)">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Country</mat-label>
+                    <input matInput name="country" [(ngModel)]="country" readonly>
+                </mat-form-field>
+                <br>
+
+            </form>
+        </mat-card>
+
+        <mat-card id="card">
+            <mat-card-title>Payment Details</mat-card-title>
+
+            <form #payment="ngForm">
+                <mat-form-field appearance="fill">
+                    <mat-label>Select Payment Option</mat-label>
+                    <mat-select [(value)]="selected">
+                        <mat-option value="bhim" name="bhim" [(ngModel)]="bhim" ngDefaultControl>BHIM UPI</mat-option>
+                        <mat-option value="paytm" name="paytm" [(ngModel)]="paytm" ngDefaultControl>Paytm</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <br>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>UPI ID</mat-label>
+                    <input matInput name="card-num">
+                </mat-form-field>
+
+            </form>
+
+            <button mat-raised-button class="pay-btn" routerLink="/success">Pay</button>
+        </mat-card>
+
+    </div>
+</div>

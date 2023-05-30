@@ -1,0 +1,22 @@
+$color_1: #61ea05;
+$color_2: black;
+$color_3: white;
+$background-color_1: #000000;
+
+.container{
+    background-color: $background-color_1;
+
+}
+
+h1{
+    padding-top: 30px;
+    color: $color_1;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+}
+
+.btn{
+    background-color:$color_1 ;
+    margin-bottom: 30px;
+
+}

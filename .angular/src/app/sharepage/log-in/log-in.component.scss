@@ -1,0 +1,26 @@
+$color_1: #61ea05;
+$color_2: black;
+$color_3: white;
+$background-color_1: #000000;
+
+img{	 
+	margin-left: 30%;
+}
+.Forgot{
+    padding-left: 300px;
+    color: $color_1;
+}
+.btn{
+    background-color: $color_1;
+    font-family: 'Raleway', sans-serif;
+}
+.banner
+{
+    background-image: url('../../../assets/img/loginbanner.jpg');
+    height: 550px;
+    background-position: center top;
+    background-size: cover;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}

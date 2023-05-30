@@ -1,0 +1,45 @@
+
+$color_1: #61ea05;
+$color_2: black;
+$color_3: white;
+$background-color_1: #000000;
+.content {
+  text-align: center;
+  padding: 40px 0;
+}
+  h1 {
+    color: #88B04B;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:20px;
+    margin: 0;
+  }
+
+.card {
+  padding: 60px;
+  display: inline-block;
+  
+}
+.imggif{
+  width: 622px;
+}
+
+.btn{
+  color:$color_2;
+  background-color: $color_1;
+  font-family: 'Open sans', serif;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+h3{
+  font-family:'Roboto Condensed', sans-serif;
+}

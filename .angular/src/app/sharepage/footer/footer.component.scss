@@ -1,0 +1,49 @@
+html,body{height: max-content;}
+
+$color_1: #61ea05;
+$color_2: black;
+$color_3: white;
+$background-color_1: #000000;
+
+.footer {
+	overflow: hidden;
+	position: sticky;
+	top: 100%;
+	background-color: $background-color_1;
+	padding: 5px 10px;
+}
+
+h1 {
+	font-weight: bold;
+	color: $color_3;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+	color: $color_1;
+	font-size: 10px;
+	text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+	color: $color_1;
+	text-decoration: none;
+	padding: 10px ;
+	font-size: 22px;
+
+	&:hover {
+		color: $color_3;
+	}
+}
+
+.icon {
+	padding: auto;
+	margin-right: -120px;
+}
+
+h6 {
+	color: $color_3;
+	font-size: 15px;
+}
